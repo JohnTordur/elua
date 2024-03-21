@@ -12,7 +12,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-          sudo apt-get install lua5.1
+          sudo apt-get install lua5.1.5
           sudo apt-get install luarocks
           sudo apt-get install gcc-arm-none-eabi
           sudo luarocks install luafilesystem
