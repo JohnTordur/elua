@@ -34,7 +34,7 @@ jobs:
       run: |
           brew install lua
           brew install luarocks
-          brew install gcc-arm-none-eabi
+          brew install --cask gcc-arm-embedded
           luarocks install luafilesystem
           luarocks install lpack
           luarocks install md5
